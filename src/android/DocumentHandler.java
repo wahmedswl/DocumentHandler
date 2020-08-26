@@ -1,4 +1,4 @@
-package ch.ti8m.phonegap.plugins;
+package com.practiceehr.phonegap.plugins;
 
 import java.io.*;
 import java.net.HttpURLConnection;
