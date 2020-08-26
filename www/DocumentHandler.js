@@ -1,4 +1,4 @@
-var myFunc = function (
+var handleDocument = function (
   successHandler, 
   failureHandler, 
   url) {
@@ -10,9 +10,9 @@ var myFunc = function (
       [{"url" : url}]);
 };
 
-window.handleDocumentWithURL = myFunc;
+window.handleDocumentWithURL = handleDocument;
 
 if(module && module.exports) {
-  module.exports = myFunc;
+  module.exports = handleDocument;
 }
 
