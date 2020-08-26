@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-documenthandler-practiceehr",
+  "version": "0.0.1",
+  "description": "A phonegap plugin to handle documents (f.e. PDFs) given by URL.",
+  "cordova": {
+    "id": "com.practiceehr.documenthandler",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wahmedswl/DocumentHandler.git"
+  },
+  "keywords": [
+    "cordova",
+    "document",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "pdf"
+  ],
+  "author": "PracticeEHR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wahmedswl/DocumentHandler/issues"
+  },
+  "homepage": "https://github.com/wahmedswl/DocumentHandler"
+}
