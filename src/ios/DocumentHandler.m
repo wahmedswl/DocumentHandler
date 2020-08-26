@@ -13,6 +13,8 @@
         NSDictionary* dict = [command.arguments objectAtIndex:0];
         
         NSString* urlStr = dict[@"url"];
+        urlStr = [urlStr stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        urlStr = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSURL* url = [NSURL URLWithString:urlStr];
         NSData* dat = [NSData dataWithContentsOfURL:url];
         if (dat == nil) {
